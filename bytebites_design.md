@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class Customer {
         - name: str
@@ -28,3 +29,4 @@ classDiagram
     Customer "1" --> "0..*" Order : has purchase history
     Menu "1" *-- "0..*" FoodItem : contains
     Order "1" o-- "1..*" FoodItem : groups
+```
